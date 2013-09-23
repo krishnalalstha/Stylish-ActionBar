@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StylishActionBar</string>
+    <string name="action_settings">Settings</string>
+    <string name="note">Note : The purpose of this Sample applicationis to show how to develope a stylish rounded corner actionbar with animation effect on actionbar menu toggle. </string>
+    <string name="hello_world">Click on the Actionbar Menu to see the purpose of this sample projects</string>
+
+</resources>

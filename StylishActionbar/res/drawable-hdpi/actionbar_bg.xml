@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape>
+            <solid android:color="#000000" />
+
+           
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#33085ea7" />
+
+            <corners
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp"
+                android:topLeftRadius="4dp"
+                android:topRightRadius="4dp" />
+        </shape>
+    </item>
+    <item android:bottom="1dp">
+        <shape>
+            <solid android:color="#085ea7" />
+
+            <corners
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp"
+                android:topLeftRadius="4dp"
+                android:topRightRadius="4dp" />
+        </shape>
+    </item>
+    <item android:bottom="2dp">
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="#3da0f5" />
+
+                    <corners
+                        android:bottomLeftRadius="0dp"
+                        android:bottomRightRadius="0dp"
+                        android:topLeftRadius="4dp"
+                        android:topRightRadius="4dp" />
+                </shape>
+            </item>
+            <item android:top="1dp">
+                <shape>
+                    <gradient
+                        android:angle="270"
+                        android:endColor="#0176d9"
+                        android:startColor="#0083f6" />
+
+                    <corners
+                        android:bottomLeftRadius="0dp"
+                        android:bottomRightRadius="0dp"
+                        android:topLeftRadius="4dp"
+                        android:topRightRadius="4dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</layer-list>

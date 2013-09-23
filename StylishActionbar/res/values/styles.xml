@@ -1,0 +1,15 @@
+<resources>
+ <style name="AppTheme" parent="Theme.Sherlock" />
+     <style name="Theme.Nepalkhabar" parent="AppTheme">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="actionBarStyle">@style/ActionBar</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+      
+    </style>
+
+  
+    <style name="ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="background">@drawable/actionbar_bg</item>
+        <item name="android:background">@drawable/actionbar_bg</item>
+    </style>
+</resources>
